@@ -1,0 +1,57 @@
+
+/* 
+    Created on : 18/09/2017, 06:00:58 AM
+    Author     : Flor Cerdán
+*/
+
+table.general {
+    border-collapse: collapse;
+}
+table.general a:hover {
+font-size:20px;
+color:#100;
+}
+table.general td, table.general th {
+    border: 1px solid #8EA9DB;
+    padding: 6px 12px;
+}
+table.general thead td , table.general thead th,
+table.general tfoot td, table.general tfoot th{
+    font-weight: bold;
+    background-color: #4472C4;
+    color: #FFFFFF;
+}
+table.general tr:nth-of-type(odd) {
+    background-color: #D9E1F2;
+}
+table.general tr:nth-of-type(even){
+    background-color: #FFFFFF;
+}
+table.general tbody tr:hover {
+    background-color: #FFFF00;
+}
+/*
+Estilo ecológico para tablas: basado en el verde
+*/
+table.ecologico {
+    border-collapse: collapse;
+}
+table.ecologico td, table.ecologico th {
+    border: 1px solid #A9D08E;
+    padding: 6px 12px;
+}
+table.ecologico thead td, table.ecologico thead th,
+table.ecologico tfoot td, table.ecologico tfoot th{
+    font-weight: bold;
+    background-color: #70AD47;
+    color: #FFFFFF;
+}
+table.ecologico tr:nth-of-type(odd) {
+    background-color: #E2EFDA;
+}
+table.ecologico tr:nth-of-type(even){
+    background-color: #FFFFFF;
+}
+table.ecologico tbody tr:hover {
+    background-color: #FFFF00;
+}
